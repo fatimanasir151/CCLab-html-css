@@ -1,0 +1,41 @@
+body {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+.box {
+    color: blueviolet;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 10px;
+    /* border: 1px solid brown; */
+    border-width: 5px;
+    border-style: dotted;
+    border-color: brown;
+}
+
+#special-box {
+    background-color: tomato;
+    /* display: block; */
+    visibility: hidden;
+    /*position: absolute;
+    right: 100px;
+    top: 50px;
+    */
+}
+
+.text-title {
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+.text-dsc {
+    font-size: xx-large;
+}

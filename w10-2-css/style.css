@@ -1,0 +1,29 @@
+body {
+  background: rgb(194, 201, 196);
+}
+
+p {
+  font-family: cursive;
+}
+
+h1 {
+  font-style: oblique;
+  font-weight: 20000;
+  text-decoration: underline;
+}
+
+.deco1 {
+  color: aqua;
+}
+
+.deco2 {
+  color: rgb(74, 235, 80);
+}
+
+.deco3 {
+  color: rgb(255, 221, 127);
+}
+
+.deco4 {
+  /* color: coral; */
+}
