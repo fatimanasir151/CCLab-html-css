@@ -7,8 +7,3 @@ function setup() {
 function draw() {
   //
 }
-
-function buttonClicked() {
-  console.log("Button Clicked!");
-  background(random(255));
-}

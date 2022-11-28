@@ -1,8 +1,63 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
+  background-color: blanchedalmond;
+  font-family: fantasy;
+  font-weight: 600;
 }
 
 canvas {
   display: block;
+}
+
+div {
+  margin-top: 0px;
+  margin-right: 550px;
+  margin-bottom: 75px;
+  margin-left: 450px;
+}
+
+.box {
+  background-color: black;
+  margin: 20px;
+  padding: 10px;
+  border-width: 4px;
+  border-style: dashed;
+  border-color: brown;
+  width: fit-content;
+}
+
+.text-title {
+  font-size: small;
+  color: burlywood;
+}
+
+.textheading {
+  font-weight: 900;
+  font-variant: small-caps;
+  color: black;
+  background-color: lightgrey;
+  margin: 20px;
+  padding: 15px;
+  border-width: 5px;
+  border-style: groove;
+  border-color: black;
+  width: fit-content;
+}
+
+#special1 {
+  position: absolute;
+  top: 200px;
+}
+
+#special2 {
+  position: absolute;
+  top: 310px;
+}
+
+#special3 {
+  position: absolute;
+  top: 420px;
+
 }
