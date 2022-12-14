@@ -26,7 +26,7 @@ function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("canvasContainer");
 
-  items.push(new Item(295, 240, imgBone, sndDoglittlebark));
+  items.push(new Item(335, 240, imgBone, sndDoglittlebark));
   items.push(new Item(340, 350, imgBall, sndDogold));
   items.push(new Item(340, 140, imgDogfood, sndDogsing));
   items.push(new Item(240, 140, imgLeash, sndDogbark));
