@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+button {
+  border: 0;
+}
+
+.dog1 {
+  width: 420;
+  height: 550px;
+  position: absolute;
+  top: 33%;
+  right: 36%;
+  background-color: transparent;
+
+}
+
+.dog2 {
+  width: 500;
+  height: 600px;
+  position: absolute;
+  top: 27%;
+  right: 2%;
+  background-color: transparent;
+
+}
+
+.cat {
+  width: 500;
+  height: 320;
+  position: absolute;
+  top: 63%;
+  right: 75%;
+  background-color: transparent;
+
+}

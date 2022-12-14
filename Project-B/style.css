@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.dogs {
+  position: relative;
+  left: 100px;
+  height: auto;
+  max-width: 50%;
+
+
+
+}
