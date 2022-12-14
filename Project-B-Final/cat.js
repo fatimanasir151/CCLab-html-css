@@ -182,10 +182,10 @@ class FatimaCat {
   constructor(x, y) {
     // properties
     this.x = x;
-    this.y = y;
+    this.y = y + 180;
     this.xSpd = random(-0.5, 0.5);
     this.ySpd = 0;
-    this.rad = 70;
+    this.rad = 85;
     this.r = 220;
     this.g = 220;
     this.b = 220;
@@ -198,12 +198,12 @@ class FatimaCat {
 
 
     imageMode(CENTER); // 50, 190
-    image(imgCat, 10, 179, 300, 320);
+    image(imgCat, 10, 0, 300, 320);
 
     //fill(this.r, this.g, this.b);
     noFill();
-    stroke(0, 255, 0);
-    //circle(0, 225, this.rad * 3);
+    noStroke();
+    circle(0, 0, this.rad * 2);
     pop();
   }
   move() {

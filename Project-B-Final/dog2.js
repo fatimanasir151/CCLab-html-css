@@ -23,9 +23,9 @@ function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("canvasContainer");
 
-  items.push(new Item(420, 500, imgHotdog, sndChihuahuamad));
-  items.push(new Item(300, 500, imgDogfood, sndChihuahuaslurp));
-  items.push(new Item(180, 500, imgFrisbee, sndChihuahuaplaying));
+  items.push(new Item(420, 75, imgHotdog, sndChihuahuamad));
+  items.push(new Item(1370, 500, imgDogfood, sndChihuahuaslurp));
+  items.push(new Item(550, 450, imgFrisbee, sndChihuahuaplaying));
 
   dog = new FatimaDog(width / 2, 480);
 
@@ -109,7 +109,7 @@ class FatimaDog {
   constructor(x, y) {
     // properties
     this.x = x;
-    this.y = y;
+    this.y = y + 200;
     this.xSpd = random(-0.5, 0.5);
     this.ySpd = 0;
     this.rad = 70;
@@ -125,12 +125,12 @@ class FatimaDog {
 
 
     imageMode(CENTER); // 50, 190
-    image(imgDog, 0, 250, 650, 400);
+    image(imgDog, 0, 60, 650, 400);
 
     //fill(this.r, this.g, this.b);
     noFill();
-    stroke(0, 255, 0);
-    //circle(0, 225, this.rad * 3);
+    noStroke();
+    circle(0, 0, this.rad * 2)
     pop();
   }
   move() {

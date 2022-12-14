@@ -46,3 +46,25 @@ button {
   background-color: transparent;
 
 }
+
+.box {
+  background-color: transparent;
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  position: absolute;
+  left: 1050px;
+  top: 5px;
+  -webkit-text-stroke: 2px black;
+}
+
+.box2 {
+  background-color: transparent;
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  position: absolute;
+  left: 1050px;
+  top: 40px;
+  -webkit-text-stroke: 2px black;
+}
